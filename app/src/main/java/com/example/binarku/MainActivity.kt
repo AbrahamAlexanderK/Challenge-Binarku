@@ -8,7 +8,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        println("ini adalah main activity")
+        println("Tugas")
+
+        val x = 2
+        val y = 3
+        val a = x + y
+        val b = x - y
+        val c = x * y
+        val d = x / y
+
+        println ("Penjumlahan = $a" )
+        println ("Pengurangan = $b")
+        println ("Perkalian = $c")
+        println ("Pembagian = $d")
+
 
     }
 }
